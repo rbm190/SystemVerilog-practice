@@ -3,8 +3,8 @@ module transparent_latch (
     output reg q,
     output qbar
 );
-assign qbar = ~q;
+    assign qbar = ~q;
     always @(d,enable) begin
-        if (enable) d = q;
+        if (enable) q = d;
     end
 endmodule
