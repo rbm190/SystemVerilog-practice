@@ -1,5 +1,4 @@
 //==============================================================================
-// Company:        Your Company / University Name
 // Designer:       https://github.com/dir190 or https://www.linkedin.com/in/dir190/
 // 
 // Design Name:    Four bit binary ALU
